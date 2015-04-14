@@ -1,0 +1,1504 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass XTU
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:introduction"
+
+\end_inset
+
+绪论
+\end_layout
+
+\begin_layout Section
+XXX概述
+\end_layout
+
+\begin_layout Standard
+参考文献
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IEEEexample:article_typical"
+
+\end_inset
+
+，同时引用多个参考文献
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IEEEexample:articleetal,IEEEexample:articlelargepages,IEEEexample:babel"
+
+\end_inset
+
+建议用LyX 2.1或以上版本。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/srm/Documents/Manuscripts/ThesisXTU/Figures/DTLZ/dtlz1.pdf
+	width 45line%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+DTLZ1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/srm/Documents/Manuscripts/ThesisXTU/Figures/DTLZ/dtlz2.pdf
+	width 45line%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+DTLZ 2---4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/srm/Documents/Manuscripts/ThesisXTU/Figures/DTLZ/dtlz5.pdf
+	width 45line%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+DTLZ 5 & 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/srm/Documents/Manuscripts/ThesisXTU/Figures/DTLZ/dtlz7.pdf
+	width 45line%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+DTLZ7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:dtlz"
+
+\end_inset
+
+DTLZ系列测试函数
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+引用Deb–Thiele–Laumanns–Zitzler系列测试函数（DTLZ
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "DTLZ"
+description "Deb–Thiele–Laumanns–Zitzler系列测试函数"
+
+\end_inset
+
+）的图表（
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:dtlz"
+
+\end_inset
+
+，
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:functions-for-dtlz"
+
+\end_inset
+
+）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:functions-for-dtlz"
+
+\end_inset
+
+DTLZ系列测试函数的基本组成部分
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+类型
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+函数
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+距离函数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $d1\left(\vec{x_{d}}\right)=100\left(\left|\vec{x_{d}}\right|+{\displaystyle \sum_{x_{\imath}\in\vec{x_{d}}}}\left(\left(x_{\imath}-0.5\right)^{2}-\cos\left(20\pi\left(x_{\imath}-0.5\right)\right)\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $d2\left(\vec{x_{d}}\right)={\displaystyle \sum_{x_{\imath}\in\vec{x_{d}}}}\left(x_{\imath}-0.5\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $d3\left(\vec{x_{d}}\right)={\displaystyle \sum_{x_{\imath}\in\vec{x_{d}}}x_{\imath}^{0.1}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $d4\left(\vec{x_{d}}\right)=\frac{1}{\left|\vec{x_{d}}\right|}{\displaystyle \sum_{x_{\imath}\in\vec{x_{d}}}x_{\imath}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+形状函数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s1_{\imath}\left(\vec{x_{p}}\right)=\begin{cases}
+{\displaystyle \prod_{\jmath=1}^{m-1}x_{\jmath}} & \imath=1\\
+\left(1-x_{m-\imath+1}\right){\displaystyle \prod_{\jmath=1}^{m-\imath}x_{\jmath}} & \imath=2,3,\cdots,m
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s2_{\imath}\left(\vec{x_{p}}\right)=\begin{cases}
+{\displaystyle \prod_{\jmath=1}^{m-1}\cos}\left(\frac{\pi}{2}x_{\jmath}\right) & \imath=1\\
+\sin\left(\frac{\pi}{2}x_{m-\imath+1}\right){\displaystyle \prod_{\jmath=1}^{m-\imath}\cos}\left(\frac{\pi}{2}x_{\jmath}\right) & \imath=2,3,\cdots,m
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s3\left(\vec{x_{p}},d\right)=m-{\displaystyle \sum_{x_{\imath}\in\vec{x_{p}}}\left[\frac{x_{\imath}}{d}\left(1+\sin\left(3\pi x_{\imath}\right)\right)\right]}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+转换函数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $t1_{\imath}\left(\vec{x_{p}},\alpha\right)=x_{\imath}^{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $t2_{\imath}\left(\vec{x_{p}},d,k\right)=\begin{cases}
+x_{\imath} & \imath=1,2,\cdots,k\\
+\frac{0.5+x_{\jmath}d}{1+d} & \imath=k+1,k+2,\cdots,\left|\vec{x_{p}}\right|
+\end{cases}$
+\end_inset
+
+, 
+\begin_inset Formula $k\geq1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NSGA-II的环境选择如
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:nsga_ii-environmental-selection"
+
+\end_inset
+
+所示。
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:nondominate-sort"
+
+\end_inset
+
+为非支配排序。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}[1]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+Require{
+\end_layout
+
+\end_inset
+
+种群
+\begin_inset Formula $R=\left\{ x_{1},x_{2},\cdots,x_{l}\right\} $
+\end_inset
+
+，输出种群大小
+\begin_inset Formula $n$
+\end_inset
+
+（
+\begin_inset Formula $n\leq l$
+\end_inset
+
+）
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+Ensure{
+\end_layout
+
+\end_inset
+
+种群
+\begin_inset Formula $P=\left\{ x_{1},x_{2},\cdots,x_{n}\right\} $
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+State
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $P=\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+State
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\mathscr{F}=NondominateSort\left(R\right)=\left\{ F_{1},F_{2},\cdots\right\} $
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:nondominate-sort"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ForAll{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $F_{\imath}\in\mathscr{F}\wedge\left|P\right|<n$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+If{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\left|P\right|+\left|F_{\imath}\right|\leq n$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+State
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $P=P\cup F_{\imath}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+Else
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+State
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $P=P\cup CriticalSelection\left(F_{\imath},n-\left|P\right|\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+EndIf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+EndFor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:nsga_ii-environmental-selection"
+
+\end_inset
+
+NSGA-II的环境选择
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+GD定义如
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:indicator-gd"
+
+\end_inset
+
+所示。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+GD\left(P\right)=\frac{\sqrt{{\displaystyle \sum_{x\in P}d\left(x,P^{*}\right)}^{2}}}{\left|P\right|}\label{eq:indicator-gd}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "language={C++}"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "lis:otl-dtlz"
+
+\end_inset
+
+利用NSGA-II求解DTLZ2（实数编码）测试函数的C++代码
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef std::mt19937 _TRandom;
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef double _TReal;(*@
+\backslash
+label{lis:otl-dtlz:TReal}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef otl::problem::dtlz::DTLZ2<_TReal> _TProblem;(*@
+\backslash
+label{lis:otl-dtlz:TProblem}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef otl::crossover::SimulatedBinaryCrossover<_TReal, _TRandom &> _TCrossover
+;(*@
+\backslash
+label{lis:otl-dtlz:TCrossover}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef otl::mutation::PolynomialMutation<_TReal, _TRandom &> _TMutation;(*@
+\backslash
+label{lis:otl-dtlz:TMutation}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef _TProblem::TDecision _TDecision; // real-coded MOP: std::vector<_TReal>(
+*@
+\backslash
+label{lis:otl-dtlz:TDecision}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+typedef otl::optimizer::nsga_ii::NSGA_II<_TReal, _TDecision, _TRandom &>
+ _TOptimizer;(*@
+\backslash
+label{lis:otl-dtlz:TOptimizer}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+_TRandom random(std::time(0));
+\end_layout
+
+\begin_layout Plain Layout
+
+_TProblem problem(3); // 3-objective optimization
+\end_layout
+
+\begin_layout Plain Layout
+
+_TCrossover _crossover(random, 1, problem.GetBoundary(), 20);
+\end_layout
+
+\begin_layout Plain Layout
+
+otl::crossover::CoupleCoupleCrossoverAdapter<_TReal, _TDecision, _TRandom
+ &> crossover(_crossover, random);
+\end_layout
+
+\begin_layout Plain Layout
+
+_TMutation mutation(random, 1 / (_TReal)problem.GetBoundary().size(), problem.GetBo
+undary(), 20);
+\end_layout
+
+\begin_layout Plain Layout
+
+const std::vector<_TDecision> initial = otl::initial::PopulationUniformReal(rand
+om, problem.GetBoundary(), 100); // 100 individuals
+\end_layout
+
+\begin_layout Plain Layout
+
+_TOptimizer optimizer(random, problem, initial, crossover, mutation);(*@
+\backslash
+label{lis:otl-dtlz:optimizer}@*)
+\end_layout
+
+\begin_layout Plain Layout
+
+for (size_t generation = 1; problem.GetNumberOfEvaluations() < 30000; ++generatio
+n) // 300 generations
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+	std::cout << "generation=" << generation << std::endl;
+\end_layout
+
+\begin_layout Plain Layout
+
+	optimizer();
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+OTL托管在GitHub页面上（
+\begin_inset CommandInset href
+LatexCommand href
+target "github.com/O-T-L"
+
+\end_inset
+
+）
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+脚注
+\end_layout
+
+\end_inset
+
+。
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lis:otl-dtlz"
+
+\end_inset
+
+给出了一段C++程序，决策变量类型
+\begin_inset Flex styCode
+status collapsed
+
+\begin_layout Plain Layout
+TDecision
+\end_layout
+
+\end_inset
+
+已经由优化问题指定（
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{lis:otl-dtlz:TDecision}
+\end_layout
+
+\end_inset
+
+，DTLZ2内部定义了
+\begin_inset Flex styCode
+status collapsed
+
+\begin_layout Plain Layout
+TDecision
+\end_layout
+
+\end_inset
+
+的类型）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:otl-time"
+
+\end_inset
+
+不同软件框架中NSGA-II在不同测试函数上运行时间（以秒为单位）的结果（均值和方差）。其中深色和浅色分别代表表现最好和次好的软件框架，
+\begin_inset Formula $\dagger$
+\end_inset
+
+符号表示PyOTL与对应的软件框架之间的均值存在显著区别。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+EnsureWidth{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Tables/OTL/Time.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+从
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:otl-time"
+
+\end_inset
+
+可以看出，运行速度最快的是OTL。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:besbs-igd"
+
+\end_inset
+
+上述7种高维进化算法在不同测试函数上的IGD结果（均值和方差）。其中深色和浅色分别代表表现最好和次好的算法。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+EnsureWidth{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Tables/BESBS/IGD-MeanSD.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:besbs-igd"
+
+\end_inset
+
+给出了所有算法的IGD数据。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:besbs-igd-anova"
+
+\end_inset
+
+BESBS与其余6种对比高维进化算法在不同测试函数上IGD的方差分析结果（均值差与显著性）。其中灰色代表BESBS的均值好于对应的算法，并用删除线标记不显著的结
+果。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+EnsureWidth{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Tables/BESBS/IGD-DiffSig.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+最后分析
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:besbs-igd-anova"
+
+\end_inset
+
+中的IGD对比结果。
+\end_layout
+
+\begin_layout Section
+论文的组织结构
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:introduction"
+
+\end_inset
+
+：简述绪论。
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:conclusion"
+
+\end_inset
+
+：总结全文。
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,74 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass{bookCJKChapter}
+# Book textclass definition file. Taken from initial LyX source code
+# Author : Matthias Ettrich <ettrich@informatik.uni-tuebingen.de>
+# Transposed by Pascal André <andre@via.ecp.fr>
+# Heavily modifed and enhanced by serveral developers.
+
+
+Format 35
+
+Input stdclass.inc
+Input numreport.inc
+
+NoStyle Part
+NoStyle Part*
+#NoStyle Chapter*
+NoStyle Section*
+NoStyle Subsection*
+NoStyle Subsubsection*
+NoStyle Paragraph*
+NoStyle Subparagraph*
+NoStyle Address
+NoStyle Right_Address
+NoStyle Labeling
+NoStyle Bibliography
+
+Style Chapter*
+    Align           center
+End
+
+Style Subject
+    CopyStyle       Title
+    LabelType       Static
+    LatexName       subject
+End
+
+Style Abstract
+    CopyStyle       Abstract
+    LatexName       abstract
+    LabelString     "Abstract"
+End
+
+Style Abstract(en)
+    CopyStyle       Abstract
+    LatexName       eabstract
+    LabelString     "Abstract"
+End
+
+Style Keywords
+    CopyStyle       Abstract
+    LatexType       Command
+    LatexName       keywords
+    LabelType       Static
+    LabelString     "关键词："
+    LabelFont
+      Series        Bold
+      Size          Small
+    EndFont
+    LeftMargin	    MMMMMMMMMa
+    Align           left
+End
+
+Style Keywords(en)
+    CopyStyle       Keywords               
+    LatexName       ekeywords
+    LabelString     "Keywords: "
+End
+
+InsetLayout Flex:styCode
+  LyxType	custom
+  LatexType	command
+  LatexName	styCode
+  LabelString	"Code Style"
+End
