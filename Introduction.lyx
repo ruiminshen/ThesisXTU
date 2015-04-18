@@ -131,6 +131,13 @@ status collapsed
 
 \begin_layout Plain Layout
 DTLZ1
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:dtlz1"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -326,7 +333,14 @@ reference "tab:functions-for-dtlz"
 
 \end_inset
 
-）。
+），
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:dtlz1"
+
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
