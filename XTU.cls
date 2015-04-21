@@ -42,6 +42,13 @@
 \newcommand*{\kaishu}{\CJKfamily{zhkai}}
 \newcommand*{\fangsong}{\CJKfamily{zhfs}}
 
+\newif\if@CJKchapter
+\if@compatibility
+	\@CJKchaptertrue
+\else
+	\DeclareOption{CJKchapter}{\@CJKchaptertrue}
+\fi
+
 \newif\if@restonecol
 \newif\if@titlepage
 \@titlepagetrue
@@ -361,13 +368,17 @@
 \renewcommand \thepart {\@Roman\c@part}
 
 %% 定义中文章编号，如“第一章”中的“一”。
-\newcommand\CJKthechapter {\CJKnumber{\@arabic\c@chapter}}
-\renewcommand \thechapter {\@arabic\c@chapter}
-\renewcommand \thesection {\thechapter.\@arabic\c@section}
-\renewcommand\thesubsection   {\thesection.\@arabic\c@subsection}
-\renewcommand\thesubsubsection{\thesubsection.\@arabic\c@subsubsection}
-\renewcommand\theparagraph    {\thesubsubsection.\@arabic\c@paragraph}
-\renewcommand\thesubparagraph {\theparagraph.\@arabic\c@subparagraph}
+\if@CJKchapter
+	\newcommand\CJKthechapter{\CJKnumber{\@arabic\c@chapter}}
+\else
+	\newcommand\CJKthechapter{\@arabic\c@chapter}
+\fi
+\renewcommand{\thechapter}{\@arabic\c@chapter}
+\renewcommand{\thesection}{\thechapter.\@arabic\c@section}
+\renewcommand{\thesubsection}{\thesection.\@arabic\c@subsection}
+\renewcommand{\thesubsubsection}{\thesubsection.\@arabic\c@subsubsection}
+\renewcommand{\theparagraph}{\thesubsubsection.\@arabic\c@paragraph}
+\renewcommand{\thesubparagraph}{\theparagraph.\@arabic\c@subparagraph}
 \newcommand\@chapapp{\chaptername}
 \newcommand{\frontmatter}{
 	\cleardoublepage
