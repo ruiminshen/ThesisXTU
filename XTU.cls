@@ -367,13 +367,9 @@
 \newcounter {subparagraph}[paragraph]
 \renewcommand \thepart {\@Roman\c@part}
 
-%% 定义中文章编号，如“第一章”中的“一”。
-\if@CJKchapter
-	\newcommand\CJKthechapter{\CJKnumber{\@arabic\c@chapter}}
-\else
-	\newcommand\CJKthechapter{\@arabic\c@chapter}
-\fi
 \renewcommand{\thechapter}{\@arabic\c@chapter}
+%% 定义中文章编号，如“第一章”中的“一”。
+\newcommand{\CJKthechapter}{\CJKnumber{\thechapter}}
 \renewcommand{\thesection}{\thechapter.\@arabic\c@section}
 \renewcommand{\thesubsection}{\thesection.\@arabic\c@subsection}
 \renewcommand{\thesubsubsection}{\thesubsection.\@arabic\c@subsubsection}
@@ -473,7 +469,7 @@
 		\if@mainmatter
 			\refstepcounter{chapter}
 			\typeout{\@chapapp\space\thechapter.}
-			\addcontentsline{toc}{chapter}{第{\CJKthechapter}章\quad #1}
+			\addcontentsline{toc}{chapter}{第{\if@CJKchapter\CJKthechapter\else\thechapter\fi}章\quad #1}
 		\else
 			\refstepcounter{chapter}%
 			\addcontentsline{toc}{chapter}{附录\quad\thechapter}
@@ -487,7 +483,7 @@
 	{
 		\bf\heiti\fontsizesan %采用黑体三号字，居中书写
 		\if@mainmatter
-			第\CJKthechapter 章\quad #2
+			第{\if@CJKchapter\CJKthechapter\else\thechapter\fi}章\quad #2
 		\else
 			附\quad 录\quad\thechapter\\ #2
 		\fi
@@ -512,50 +508,50 @@
 	\@afterheading
 }
 
-\newcommand\section{ %一级节标题
-	\@startsection {section}{1}{\z@}
+\newcommand{\section}{ %一级节标题
+	\@startsection{section}{1}{\z@}
 	{-24pt} %段前空24磅
 	{6pt} %段后空6磅
 	{\fontsize{14pt}{20pt}\heiti} %采用黑体四号（14pt）字居左书写，行距为固定值20磅
 }
 
-\newcommand\subsection{ %二级节标题
+\newcommand{\subsection}{ %二级节标题
 	\@startsection{subsection}{2}{\z@}%
 	{-12pt} %段前空12磅
 	{6pt} %段后空6磅
 	{\fontsize{13pt}{20pt}\heiti} %采用黑体13pt字居左书写，行距为固定值20磅
 }
 
-\newcommand\subsubsection{ %三级节标题
+\newcommand{\subsubsection}{ %三级节标题
 	\@startsection{subsubsection}{3}{\z@}%
 	{-12pt} %段前空12磅
 	{6pt} %段后空6磅
 	{\fontsize{12pt}{20pt}\heiti} %采用黑体小四号（12pt）字居左书写，行距为固定值20磅
 }
 
-\newcommand\paragraph{
+\newcommand{\paragraph}{
 	\@startsection{paragraph}{4}{\z@}%
 	{0ex \@plus1ex \@minus.2ex}%
 	{-1em}%
 	{\normalfont\normalsize\heiti}
 }
 
-\newcommand\subparagraph{
+\newcommand{\subparagraph}{
 	\@startsection{subparagraph}{5}{\parindent}%
 	{3.25ex \@plus1ex \@minus .2ex}%
 	{-1em}%
 	{\normalfont\normalsize\heiti}
 }
 
-\setlength\leftmargini  {2.5em}
-\leftmargin  \leftmargini
-\setlength\leftmarginii  {2.2em}
-\setlength\leftmarginiii {1.87em}
-\setlength\leftmarginiv  {1.7em}
-\setlength\leftmarginv  {1em}
-\setlength\leftmarginvi {1em}
-\setlength  \labelsep  {.5em}
-\setlength  \labelwidth{\leftmargini}
+\setlength\leftmargini{2.5em}
+\leftmargin\leftmargini
+\setlength\leftmarginii{2.2em}
+\setlength\leftmarginiii{1.87em}
+\setlength\leftmarginiv{1.7em}
+\setlength\leftmarginv{1em}
+\setlength\leftmarginvi{1em}
+\setlength\labelsep{.5em}
+\setlength\labelwidth{\leftmargini}
 \addtolength\labelwidth{-\labelsep}
 \@beginparpenalty -\@lowpenalty
 \@endparpenalty   -\@lowpenalty
@@ -575,6 +571,7 @@
 \newcommand\labelitemii{\normalfont\bfseries \textendash}
 \newcommand\labelitemiii{\textasteriskcentered}
 \newcommand\labelitemiv{\textperiodcentered}
+
 \newenvironment{description}{
 	\list{}{
 		\labelwidth\z@ \itemindent-\leftmargin
@@ -978,7 +975,7 @@
 %% 定义页眉章标题写法格式。
 \renewcommand{\chaptermark}[1]{
 	\if@mainmatter
-		\markboth{第\CJKthechapter 章\quad  #1 }{}
+		\markboth{第{\if@CJKchapter\CJKthechapter\else\thechapter\fi}章\quad  #1}{}
 	\else
 		\markboth{附录\quad\thechapter}{}
 	\fi
