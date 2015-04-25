@@ -22,7 +22,7 @@
 \usepackage[CJKnumber,boldfont,slantfont]{xeCJK}
 \setmainfont[Mapping=tex-text]{Times New Roman}
 \setCJKmainfont{Adobe Song Std}
-\setCJKsansfont{Adobe Kaiti Std}	% 斜体
+\setCJKsansfont{Adobe Kaiti Std}
 \setCJKmonofont{Adobe Fangsong Std}
 
 \XeTeXlinebreaklocale "zh"
