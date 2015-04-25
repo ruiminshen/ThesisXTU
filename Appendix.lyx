@@ -82,169 +82,13 @@ textbf{#1}}
 
 \begin_layout Plain Layout
 
-
-\backslash
-begin{filecontents}{
-\backslash
-jobname.bib}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-@Article{paper1,
-\end_layout
-
-\begin_layout Plain Layout
-
-  Title                    = {文章标题},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Author                   = {你导师 and 
-\backslash
-itsme{你自己} and 张三},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Journal                  = {XXX学报},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Year                     = {2014},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Number                   = {1},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Pages                    = {1-3},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Volume                   = {1}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-@Conference{paper2,
-\end_layout
-
-\begin_layout Plain Layout
-
-  Title                    = {Title},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Author                   = {
-\backslash
-itsme{Yourself} and Your Tutor},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Booktitle                = {Conference},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Year                     = {2015},
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-  Address                  = {Conference Location},
-\end_layout
-
-\begin_layout Plain Layout
-
-  Month                    = {25-28 May}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-填写你自己的论文
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{filecontents}
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-makeatletter  
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-@bibunitname}{
-\backslash
-jobname.
-\backslash
-the
-\backslash
-@bibunitauxcnt}
+makeatletter
 \end_layout
 
 \begin_layout Plain Layout
@@ -271,6 +115,16 @@ bibsection}{}
 \backslash
 makeatother
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Publications.lyx"
 
 \end_inset
 
