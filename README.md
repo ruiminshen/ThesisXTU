@@ -1,6 +1,6 @@
 # 湘潭大学硕/博士学位论文LyX（LaTeX）模板
 
-本LyX模板基于XeTeX制作，支持多种平台（采用[Texlive 2014](http://tug.org/texlive/files/texlive2014.iso.torrent)在Linux和Windows下测试通过）。为了方便用户，本文包含算法伪代码（algpseudocode）、程序列表（listings）、图表、术语表、公式等常用内容的范例。全文采用cleveref管理交叉引用（可以生成更好的链接，如第1章、图2、第3行等），参考文献采用BibTeX管理，并利用bibunits生成已发表的论文列表（在附录中以BibTeX的格式添加你自己的论文）。
+本[LyX](http://www.lyx.org)模板基于XeTeX制作，支持多种平台（采用[Texlive 2014](http://tug.org/texlive/files/texlive2014.iso.torrent)在Linux和Windows下测试通过）。为了方便用户，本文包含算法伪代码（algpseudocode）、程序列表（listings）、图表、术语表、公式等常用内容的范例。全文采用cleveref管理交叉引用（可以生成更好的链接，如第1章、图2、第3行等），参考文献采用BibTeX管理，并利用bibunits生成已发表的论文列表（在附录中以BibTeX的格式添加你自己的论文）。
 
 在编译本模板之前，请安装以下字体：
 
