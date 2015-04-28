@@ -209,6 +209,10 @@ Adobe Fangsong Std
 Adobe Heiti Std
 \end_layout
 
+\begin_layout Plain Layout
+如果您想在章节中使用阿拉伯数字编号（如“第一章”改为“第1章”），请删除文档参数“CJKchapter”。
+\end_layout
+
 \end_inset
 
 
