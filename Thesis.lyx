@@ -221,7 +221,7 @@ Adobe Heiti Std
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "CoverC.lyx"
+filename "Thesis-CoverC.lyx"
 
 \end_inset
 
@@ -231,7 +231,7 @@ filename "CoverC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "CoverE.lyx"
+filename "Thesis-CoverE.lyx"
 
 \end_inset
 
@@ -241,7 +241,7 @@ filename "CoverE.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Copyright.lyx"
+filename "Thesis-Copyright.lyx"
 
 \end_inset
 
@@ -267,7 +267,7 @@ frontmatter
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "AbstractC.lyx"
+filename "Thesis-AbstractC.lyx"
 
 \end_inset
 
@@ -277,7 +277,7 @@ filename "AbstractC.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "AbstractE.lyx"
+filename "Thesis-AbstractE.lyx"
 
 \end_inset
 
@@ -322,7 +322,7 @@ mainmatter
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Introduction.lyx"
+filename "Thesis-Introduction.lyx"
 
 \end_inset
 
@@ -332,7 +332,7 @@ filename "Introduction.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Conclusion.lyx"
+filename "Thesis-Conclusion.lyx"
 
 \end_inset
 
@@ -379,7 +379,7 @@ options "gbt7714-2005"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Acknowledgement.lyx"
+filename "Thesis-Acknowledgement.lyx"
 
 \end_inset
 
@@ -389,7 +389,7 @@ filename "Acknowledgement.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "Appendix.lyx"
+filename "Thesis-Appendix.lyx"
 
 \end_inset
 
