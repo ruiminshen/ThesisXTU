@@ -1,0 +1,39 @@
+\usepackage{adjustbox}
+\newcommand{\EnsureWidth}[1]{\adjustbox{max width=\textwidth}{#1}}
+\newcommand{\EnsureHeight}[1]{\adjustbox{max totalsize={\textheight}{\textwidth}}{#1}}
+\newcommand{\EnsureVisible}[1]{\adjustbox{max totalsize={\textheight}{\textwidth}}{#1}}
+
+\usepackage[round-precision = 5, round-mode = figures]{siunitx}
+\newcommand{\CellFormat}[2]{
+\setlength{\tabcolsep}{0pt}
+\begin{tabular}{c}
+\num{#1}\tabularnewline
+\hline 
+\num{#2}\tabularnewline
+\end{tabular}
+}
+
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{cancel}
+
+\newcommand{\CellFormatMeanSD}[2]{\num{#1} (\num{#2})}
+\newcommand{\ResultRankA}[1]{\cellcolor[gray]{0.6}#1}
+\newcommand{\ResultRankB}[1]{\cellcolor[gray]{0.8}#1}
+\newcommand{\ResultRankC}[1]{#1}
+\newcommand{\ResultRankD}[1]{#1}
+\newcommand{\ResultRankE}[1]{#1}
+\newcommand{\ResultRankF}[1]{#1}
+\newcommand{\ResultRankG}[1]{#1}
+\newcommand{\ResultRankH}[1]{#1}
+\newcommand{\ResultRankI}[1]{#1}
+\newcommand{\ResultRankJ}[1]{#1}
+
+\newcommand{\ResultDifferent}[1]{#1$^\dagger$}
+\newcommand{\ResultIdentical}[1]{#1}
+
+\newcommand{\CellFormatDiffSig}[2]{\num{#1} (\num{#2})}
+\newcommand{\ResultSignificantlyBetter}[1]{\cellcolor{gray!50}#1}
+\newcommand{\ResultSlightlyBetter}[1]{\cellcolor{gray!50}\cancel{#1}}
+\newcommand{\ResultSignificantlyWorse}[1]{#1}
+\newcommand{\ResultSlightlyWorse}[1]{\cancel{#1}}
