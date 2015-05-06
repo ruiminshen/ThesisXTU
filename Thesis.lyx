@@ -4,14 +4,7 @@
 \begin_header
 \textclass XTU
 \begin_preamble
-\usepackage[numbers, super, square, sort&compress]{natbib}
-\renewcommand{\bibfont}{\small}
-
-\newcommand{\styCode}[1]{\texttt{\hyphenchar\font=\defaulthyphenchar #1}}
-\def\nomname{术语表}
-
-\input{Reference.tex}
-\input{Table.tex}
+\input{Thesis.sty}
 \end_preamble
 \options CJKchapter
 \use_default_options true

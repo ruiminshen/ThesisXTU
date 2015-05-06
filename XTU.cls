@@ -19,18 +19,13 @@
 
 \usepackage{polyglossia}
 \usepackage{babel}
-\usepackage[CJKnumber,boldfont,slantfont]{xeCJK}
 \setmainfont[Mapping=tex-text]{Times New Roman}
-\setCJKmainfont{Adobe Song Std}
-\setCJKsansfont{Adobe Kaiti Std}
-\setCJKmonofont{Adobe Fangsong Std}
-
-\XeTeXlinebreaklocale "zh"
-\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\input{Chinese.sty}
 
 \setdefaultlanguage{}
 \setotherlanguage{english}
 \renewcommand{\selectlanguage}[1]{}
+\renewcommand{\setdefaultlanguage}[1]{}
 
 \newfontfamily\arial{Arial}
 \setCJKfamilyfont{zhkai}{Adobe Kaiti Std}

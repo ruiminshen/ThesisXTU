@@ -1,12 +1,15 @@
 \usepackage{filecontents}
 \usepackage{bibunits}
 
+\newcommand{\styCode}[1]{\texttt{\hyphenchar\font=\defaulthyphenchar #1}}
+\def\nomname{术语表}
+\def\algorithmname{算法}
+
 \usepackage{algpseudocode}
 \algrenewcommand{\algorithmicrequire}{\textbf{输入：}}
 \algrenewcommand{\algorithmicensure}{\textbf{输出：}}
 \algrenewcommand{\algorithmicforall}{\textbf{for each}}
 \algrenewcommand\ALG@beginalgorithmic{\small}
-\renewcommand{\algorithmname}{算法}
 
 \usepackage{listings}
 \renewcommand{\lstlistingname}{代码}

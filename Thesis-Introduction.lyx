@@ -3,6 +3,11 @@
 \begin_document
 \begin_header
 \textclass XTU
+\begin_preamble
+\input{Thesis.sty}
+
+\title{标题}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language chinese-simplified
@@ -51,6 +56,7 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\listings_params "aboveskip=0pt,basicstyle={\ttfamily\tiny},belowskip=0pt,breaklines=true,captionpos=b,commentstyle={\color{gray}},escapeinside={(*@}{@*)},frame=single,frameround=ftff,identifierstyle={\color{blue}},keywordstyle={\color{red}},numbers=left,numbersep=1em,stringstyle={\color{green}},tabsize=5,xleftmargin=1em"
 \tracking_changes false
 \output_changes false
 \html_math_output 0

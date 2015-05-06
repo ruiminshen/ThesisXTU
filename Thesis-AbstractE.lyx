@@ -3,6 +3,10 @@
 \begin_document
 \begin_header
 \textclass XTU
+\begin_preamble
+\usepackage{hyperref}
+\title{标题}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
