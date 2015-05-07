@@ -2,4 +2,25 @@
 \renewcommand{\bibfont}{\small}
 
 \input{Reference.sty}
+\input{Scale.sty}
 \input{Table.sty}
+
+\algrenewcommand\ALG@beginalgorithmic{\small}
+\lstset{
+	aboveskip=0pt,
+	basicstyle={\ttfamily\tiny},
+	belowskip=0pt,
+	breaklines=true,
+	captionpos=b,
+	commentstyle={\color{gray}},
+	escapeinside={(*@}{@*)},
+	frame=single,
+	frameround=ftff,
+	identifierstyle={\color{blue}},
+	keywordstyle={\color{red}},
+	numbers=left,
+	numbersep=1em,
+	stringstyle={\color{green}},
+	tabsize=5,
+	xleftmargin=1em
+}
