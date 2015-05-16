@@ -1194,7 +1194,7 @@ target "github.com/O-T-L"
 
 ）
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 脚注
@@ -1278,33 +1278,9 @@ name "tab:otl-time"
 \end_inset
 
 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-EnsureWidth{
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset include
 LatexCommand input
 filename "Tables/OTL/Time.lyx"
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 
@@ -1343,11 +1319,27 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:besbs-igd"
+name "tab:besbs-igd-dtlz1"
 
 \end_inset
 
-上述7种高维进化算法在不同测试函数上的IGD结果（均值和方差）。其中深色和浅色分别代表表现最好和次好的算法。
+所有算法在DTLZ1测试函数上的IGD结果（均值和方差）。其中深色和浅色分别代表表现最好和次好的算法。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize
 \end_layout
 
 \end_inset
@@ -1360,6 +1352,49 @@ name "tab:besbs-igd"
 \end_inset
 
 
+\begin_inset CommandInset include
+LatexCommand input
+filename "Tables/BESBS/DTLZ1/IGD-MeanSD.lyx"
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:besbs-igd-dtlz3"
+
+\end_inset
+
+所有算法在DTLZ3测试函数上的IGD结果（均值和方差）。其中深色和浅色分别代表表现最好和次好的算法。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
@@ -1367,26 +1402,22 @@ status collapsed
 
 
 \backslash
-EnsureWidth{
+scriptsize
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand input
-filename "Tables/BESBS/IGD-MeanSD.lyx"
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}
-\end_layout
+filename "Tables/BESBS/DTLZ3/IGD-MeanSD.lyx"
 
 \end_inset
 
@@ -1405,7 +1436,14 @@ status collapsed
 \begin_layout Standard
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:besbs-igd"
+reference "tab:besbs-igd-dtlz1"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:besbs-igd-dtlz3"
 
 \end_inset
 
@@ -1424,12 +1462,27 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:besbs-igd-anova"
+name "tab:besbs-igd-anova-dtlz1"
 
 \end_inset
 
-BESBS与其余6种对比高维进化算法在不同测试函数上IGD的方差分析结果（均值差与显著性）。其中灰色代表BESBS的均值好于对应的算法，并用删除线标记不显著的结
-果。
+BESBS与其余算法在DTLZ1测试函数上IGD的方差分析结果（均值差与显著性）。其中灰色代表BESBS的均值好于对应的算法，并用删除线标记不显著的结果。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize
 \end_layout
 
 \end_inset
@@ -1442,6 +1495,49 @@ BESBS与其余6种对比高维进化算法在不同测试函数上IGD的方差�
 \end_inset
 
 
+\begin_inset CommandInset include
+LatexCommand input
+filename "Tables/BESBS/DTLZ1/IGD-DiffSig.lyx"
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:besbs-igd-anova-dtlz3"
+
+\end_inset
+
+BESBS与其余算法在DTLZ3测试函数上IGD的方差分析结果（均值差与显著性）。其中灰色代表BESBS的均值好于对应的算法，并用删除线标记不显著的结果。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status collapsed
 
@@ -1449,26 +1545,22 @@ status collapsed
 
 
 \backslash
-EnsureWidth{
+scriptsize
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand input
-filename "Tables/BESBS/IGD-DiffSig.lyx"
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-}
-\end_layout
+filename "Tables/BESBS/DTLZ3/IGD-DiffSig.lyx"
 
 \end_inset
 
@@ -1488,7 +1580,14 @@ status collapsed
 最后分析
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:besbs-igd-anova"
+reference "tab:besbs-igd-anova-dtlz1"
+
+\end_inset
+
+–
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:besbs-igd-anova-dtlz3"
 
 \end_inset
 

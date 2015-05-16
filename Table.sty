@@ -12,7 +12,7 @@
 \usepackage{xcolor}
 \usepackage{cancel}
 
-\newcommand{\CellFormatMeanSD}[2]{\num{#1} (\num{#2})}
+\newcommand{\CellFormatMeanSD}[2]{\CellFormat{#1}{#2}}
 \newcommand{\ResultRankA}[1]{\cellcolor[gray]{0.6}#1}
 \newcommand{\ResultRankB}[1]{\cellcolor[gray]{0.8}#1}
 \newcommand{\ResultRankC}[1]{#1}
@@ -27,7 +27,7 @@
 \newcommand{\ResultDifferent}[1]{#1$^\dagger$}
 \newcommand{\ResultIdentical}[1]{#1}
 
-\newcommand{\CellFormatDiffSig}[2]{\num{#1} (\num{#2})}
+\newcommand{\CellFormatDiffSig}[2]{\CellFormat{#1}{#2}}
 \newcommand{\ResultSignificantlyBetter}[1]{\cellcolor{gray!50}#1}
 \newcommand{\ResultSlightlyBetter}[1]{\cellcolor{gray!50}\cancel{#1}}
 \newcommand{\ResultSignificantlyWorse}[1]{#1}

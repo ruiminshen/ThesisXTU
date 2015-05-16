@@ -1,11 +1,12 @@
+\usepackage{adjustbox}
 \usepackage[numbers, super, square, sort&compress]{natbib}
 \renewcommand{\bibfont}{\small}
 
 \input{Reference.sty}
-\input{Scale.sty}
 \input{Table.sty}
 
 \algrenewcommand\ALG@beginalgorithmic{\small}
+\algrenewcommand\alglinenumber[1]{\small #1:}
 \lstset{
 	aboveskip=0pt,
 	basicstyle={\ttfamily\tiny},

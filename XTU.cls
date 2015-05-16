@@ -694,8 +694,8 @@
 \usepackage[labelformat=simple]{subfig}
 \captionsetup[subtable]{captionskip=0pt,nearskip=0pt,farskip=0pt}
 \captionsetup[subfigure]{captionskip=0pt,nearskip=0pt,farskip=0pt}
-\captionsetup[figure]{format=hang,position=bottom,belowskip=-11pt,aboveskip=6pt}
-\captionsetup[table]{belowskip=0pt,aboveskip=6pt}
+\captionsetup[figure]{justification=centering,format=hang,position=bottom,belowskip=-11pt,aboveskip=6pt}
+\captionsetup[table]{justification=centering,belowskip=0pt,aboveskip=6pt}
 \renewcommand{\thesubfigure}{(\alph{subfigure})~}
 \renewcommand{\thesubtable}{(\alph{subtable})~} 
 
